@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import BaseLayout from "./BaseLayout.js"
 
 export default class ProductClick extends Component {
   render(){
     return(
       <div>
-        <h1>Test</h1>
+      <BaseLayout>
+        <h1 className="innerContent">Test Product Page</h1>
+      </BaseLayout>
       </div>
     )
   }

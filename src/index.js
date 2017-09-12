@@ -17,7 +17,7 @@ ReactDOM.render(
   <BrowserRouter>
       <Switch>
         <Route exact path="/" component={App}/>
-        <Route path="/Products/:id}" component={ProductClick}/>
+        <Route path="/Products/:id" component={ProductClick}/>
         <Route path="/Products" component={Products}/>
         <Route path="/About" component={About}/>
         <Route path="/Contact" component={Contact}/>
