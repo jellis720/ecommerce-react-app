@@ -18,8 +18,8 @@ export default class Products extends Component {
               <div className="prodDetails">
               <NavLink activeClassName="selected" className="quickDescription" to={`/Products/${product.name}`}>
                 <p className="servDescription">
-                {product.details}
-                {product.price}
+                <p>{product.details}</p>
+                <p>{product.price}</p>
                 </p>
               </NavLink>
               </div>

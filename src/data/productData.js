@@ -20,7 +20,7 @@ const productList = [
   {
     id: 3,
     name: "WidgetFront3",
-    price: "20,000",
+    price: "$20,000",
     details: "So you need more than a perfect LOOK? Now introducing the Widget++. This features seemlessly integrates JavaScript features to give your website your full, desired, problem solving functionability",
     // imageUrl:
 },
