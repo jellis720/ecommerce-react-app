@@ -1,0 +1,129 @@
+body{
+  background-color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+.logoImage{
+  height: 25px
+}
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  align-items: center;
+}
+
+.navText:hover{
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.navbar-fixed-top{
+  width: 100%;
+}
+
+.navbar-nav a{
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-weight: 100;
+}
+
+.homeBanner{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: white
+}
+
+.bodyImage{
+  width: 100%;
+}
+
+.pageName{
+  color: black;
+  font-family: 'Righteous', cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.innerContent{
+  display: flex;
+  justify-content: center;
+  margin: 25px 35px;
+  color: gray;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.innerContentTag{
+  color: white;
+}
+
+.innerContentTag:hover{
+  color: white;
+  text-decoration: underline;
+  font-weight:bold;
+}
+
+.aboutContent{
+  display: flex;
+  justify-content: center;
+  margin: 25px 35px;
+  color: gray;
+  align-items: center;
+  flex-direction: column;
+}
+
+.servicesPicture{
+  height:200px;
+  width: 400px;
+}
+
+.tableContent{
+  display: flex;
+  justify-content: center;
+  color: silver;
+  font-weight: lighter;
+  margin: 25%;
+}
+
+th{
+  border: white 1px solid;
+}
+td{
+  border: white 1px solid;
+}
+
+.prodContainer{
+  width: 25%;
+  margin: 20px
+}
+
+.prodGrid{
+  display: flex;
+  justify-content: center;
+}
+
+.prodGrid a{
+  color: white;
+}
+
+.contactContent{
+  display: flex;
+  justify-content: center;
+  margin: 30%
+}
+
+.contactLogo{
+  height: 100px
+}
+
+footer{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom:0;
+  width: 100%
+}
