@@ -10,7 +10,6 @@ export default class Services extends Component {
       <div className="innerContent">
         <img src={image2} className="servicesPicture"/>
         <p>Need custom work? No problem! Here is a list of services we can offer to help your company succeed.</p>
-      </div>
       <div className="tableContent">
       <table>
         <tr>
@@ -34,6 +33,7 @@ export default class Services extends Component {
           <td>$2000-$6000</td>
         </tr>
       </table>
+      </div>
       </div>
       </BaseLayout>
     );
