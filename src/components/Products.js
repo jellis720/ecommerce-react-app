@@ -1,29 +1,28 @@
 import React, { Component } from 'react';
 import BaseLayout from './BaseLayout';
 import {NavLink} from 'react-router-dom';
-import ProductList from '../data/productData.js';
+import {productList} from '../data/productData.js';
 
 export default class Products extends Component {
 
   render() {
 
-    let ProdList = ProductList.map((product)=>{
+    let ProdList = productList.map((product)=>{
       return (
         <div className="prodContainer" key={product.id}>
           <NavLink activeClassName="selected" className="nav-link-prod" to={`/Products/${product.name}`}>
-          <img className="prodImage" src={product.imageUrl} alt="productImage"/></NavLink>
+            <img className="prodImage" src={product.imageUrl} alt="productImage"/>
           <div className="prodDescription">
             <button className="descDisplay">{product.name}
             </button>
               <div className="prodDetails">
-              <NavLink activeClassName="selected" className="quickDescription" to={`/Products/${product.name}`}>
                 <p className="servDescription">
                 <p>{product.details}</p>
                 <p>{product.price}</p>
                 </p>
-              </NavLink>
               </div>
             </div>
+          </NavLink>
         </div>
 )
     })
