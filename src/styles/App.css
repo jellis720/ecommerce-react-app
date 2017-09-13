@@ -9,9 +9,10 @@ body{
 .navbar-nav{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: black;
   align-items: center;
+  margin: 0 25px;
 }
 
 .navText:hover{

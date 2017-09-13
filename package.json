@@ -9,7 +9,7 @@
     "react-scripts": "1.0.13"
   },
   "scripts": {
-      "homepage": "https://jellis720.github.io/ecommerce-react-app",
+    "homepage": "https://jellis720.github.io/ecommerce-react-app",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
