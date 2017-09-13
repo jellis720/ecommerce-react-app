@@ -30,7 +30,9 @@ export default class Products extends Component {
     return (
       <BaseLayout>
       <div className="content">
-        <p className="innerContent">Check out some of these extremely real examples of our work. </p>
+      <div className="jumbotron title-sm">
+        <h3 className="pageName">Our Products </h3>
+      </div>
       <div className="prodGrid">
       {ProdList}
       </div>

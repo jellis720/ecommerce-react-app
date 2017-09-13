@@ -72,7 +72,7 @@ body{
 .aboutContent{
   display: flex;
   justify-content: center;
-  margin: 25px 35px;
+  margin: 25px 35px 45px 35px;
   color: gray;
   align-items: center;
   flex-direction: column;
@@ -81,6 +81,7 @@ body{
 .servicesPicture{
   height:200px;
   width: 400px;
+  margin: 50px;
 }
 
 .tableContent{
@@ -88,7 +89,7 @@ body{
   justify-content: center;
   color: silver;
   font-weight: lighter;
-  margin: 25%;
+  margin: 10%;
 }
 
 th{
@@ -111,9 +112,15 @@ td{
   margin: 20px
 }
 
+.jumbotron{
+  margin-top: 40px
+}
+
 .prodGrid{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px
 }
 
 .prodGrid a{
@@ -127,7 +134,7 @@ td{
 .contactContent{
   display: flex;
   justify-content: center;
-  margin: 30%
+  margin: 20%
 }
 
 .contactLogo{
