@@ -12,7 +12,7 @@ export default class ProductClick extends Component {
     let productSel = match.params.id;
 
     let widgetSelect = productList.map((widgetSel)=>{
-      if (widgetSel.productSel === productSel){
+      if (widgetSel.name === productSel){
         return(
           <div key={widgetSel.id}>
            <img className="selectedImg" src={widgetSel.imageUrl} />
@@ -28,7 +28,7 @@ export default class ProductClick extends Component {
     })
 
     return(
-        <div>
+        <div className="oneProduct">
         <BaseLayout>
         {widgetSelect}
         </BaseLayout>

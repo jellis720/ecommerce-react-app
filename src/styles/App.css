@@ -132,6 +132,10 @@ td{
   height: 100px
 }
 
+.selectedImg{
+  height:200px
+}
+
 footer{
   background-color: white;
   display: flex;
