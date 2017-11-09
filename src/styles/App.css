@@ -1,6 +1,7 @@
 body{
   background-color: black;
   font-family: 'Raleway', sans-serif;
+  z-index: -1;
 }
 
 .logoImage{
